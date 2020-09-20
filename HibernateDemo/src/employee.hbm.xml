@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.zensar.hibernate_demo.entity.Employee"
+		table="employee">
+		<id name="employeeId" column="id"></id>
+		<!-- <discriminator column="dtype" type="string"></discriminator> -->
+		<property name="employeeName" column="name"></property>
+		<property name="employeeSalary" column="salary"></property>
+
+
+		<!-- Normalization will happen -->
+		<joined-subclass
+			name="com.zensar.hibernate_demo.entity.WageEmployee"
+			table="wemployee">
+			<key column="eid"></key>
+			<property name="hours"></property>
+			<property name="rate"></property>
+		</joined-subclass>
+
+	</class>
+
+
+	<!-- ....Table_Per_Class....<class name="com.zensar.hibernate_demo.entity.WageEmployee" table="wemployee"> 
+		<id name="employeeId"></id> <property name="employeeName" column="name"></property> 
+		<property name="employeeSalary" column="salary"></property> <property name="hours"></property> 
+		<property name="rate"></property> </class> -->
+
+</hibernate-mapping>

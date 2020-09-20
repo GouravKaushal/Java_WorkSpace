@@ -1,0 +1,47 @@
+package com.zensar.myfirstproject.client;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import com.zensar.myfirstproject.beans.Shape;
+
+public class Test {
+	public static double area(Shape shape) {
+		return shape.calculateArea();
+	}
+
+	public static void main(String[] args) {
+
+		FileInputStream fis = null;
+		FileOutputStream fos = null;
+
+		try {
+			fis = new FileInputStream("abc.txt");
+			fos = new FileOutputStream("abc2.txt");
+			int ch = 0;
+			while ((ch = fis.read()) != -1) {
+				fos.write(ch);
+			}
+			System.out.println("Content has been copied from abc.txt to abc.txt");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		} finally {
+			try {
+				if (fis != null)
+					fis.close();
+
+				if (fos != null)
+					fos.close();
+
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+}

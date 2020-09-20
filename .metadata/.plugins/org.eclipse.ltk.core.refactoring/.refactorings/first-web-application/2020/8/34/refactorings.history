@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;db.properties&apos; to &apos;properties&apos;&#x0D;&#x0A;- Original project: &apos;first-web-application&apos;&#x0D;&#x0A;- Destination element: &apos;properties&apos;&#x0D;&#x0A;- Original element: &apos;db.properties&apos;" description="Copy file" element1="WebContent/WEB-INF/classes/db.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1597907333402" target="/first-maven-webapp/src/main/webapp/WEB-INF/properties" units="0" version="1.0"/>
+</session>

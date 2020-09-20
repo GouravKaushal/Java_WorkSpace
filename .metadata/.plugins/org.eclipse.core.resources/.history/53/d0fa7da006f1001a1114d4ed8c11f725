@@ -1,0 +1,51 @@
+package com.zensar.assignments;
+
+public class Test {
+	int count = 0;
+
+	void A() throws Exception {
+		try {
+			count++;
+			System.out.println("1 :"+count);
+			try {
+				count++;
+				System.out.println("2 :"+count);
+				throw new Exception();
+				try {
+					count++;
+					System.out.println("3 :"+count);
+					throw new Exception();
+
+				}
+
+				catch (Exception ex) {
+					count++;
+					System.out.println("4 :"+count);
+					throw new Exception();
+				}
+			}
+
+			catch (Exception ex) {
+				count++;
+				System.out.println("5 :"+count);
+			}
+		}
+
+		catch (Exception ex) {
+			count++;
+			System.out.println("6 :"+count);
+		}
+
+	}
+
+	void display() {
+		System.out.println(count);
+	}
+
+	public static void main(String[] args) throws Exception {
+		Test obj = new Test();
+		obj.A();
+		obj.display();
+	}
+
+}

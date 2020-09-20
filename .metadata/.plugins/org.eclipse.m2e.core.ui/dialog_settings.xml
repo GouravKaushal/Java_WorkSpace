@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Zensar_Training\Java_WorkSpace\product_management_webapp"/>
+			<item value="E:\Zensar_Training\Java_WorkSpace\HibernateDemo\src\hibernate.cfg.xml"/>
+			<item value="E:\Zensar_Training\Java_WorkSpace\jsp_action-tags"/>
+			<item value="E:\Zensar_Training\Java_WorkSpace\layers-demo_webapp"/>
+			<item value="E:\Zensar_Training\Java_WorkSpace\first-maven-webapp"/>
+			<item value="E:\Zensar_Training\Java_WorkSpace\student-management-mavenapp"/>
+			<item value="E:\Zensar_Training\Java_WorkSpace\MyFirstProject"/>
+			<item value="E:\Zensar_Training\Java_WorkSpace\product-management\src\main\java\com\zensar\ui\ProductClient.java"/>
+			<item value="E:\Zensar_Training\Java_WorkSpace\Servers2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.zensar.CompositionInHibernateDemo"/>
+			<item value="com.zensar.hibernate_maven_quickstart"/>
+			<item value="com.zensar.custom_tag_demo"/>
+			<item value="com.zensar.jsp_action_tags"/>
+		</list>
+		<list key="groupId">
+			<item value="com.zensar"/>
+		</list>
+		<list key="artifactId">
+			<item value="CompositionInHibernateDemo"/>
+			<item value="hibernate_maven_quickstart"/>
+			<item value="custom-tag-demo"/>
+			<item value="jsp_action-tags"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="org.apache.maven.archetypes"/>
+			<item value="org.apache.maven-archetypes"/>
+			<item value="com."/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="maven-archetype-webapp"/>
+			<item value="maven-archetypes-webapp"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="1.4"/>
+			<item value="1.0"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="720"/>
+		<item key="y" value="166"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+</section>

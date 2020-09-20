@@ -1,0 +1,63 @@
+
+Sep 03, 2020 10:49:52.571 NEW SESSION
+Sep 03, 2020 10:49:52.572 [12796:4324:0903/104952.570:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 03, 2020 11:37:56.215 [12796:15172:0903/113756.215:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 03, 2020 11:38:00.621 [12796:15172:0903/113800.621:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 11:38:12.319 [12796:15172:0903/113812.319:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 11:38:28.406 [12796:15172:0903/113828.406:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 11:38:30.608 [12796:15172:0903/113830.608:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 03, 2020 11:38:36.121 [12796:15172:0903/113836.120:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 11:38:47.957 [12796:15172:0903/113847.957:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 11:39:39.803 [12796:15172:0903/113939.803:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 03, 2020 11:40:42.623 [12796:15172:0903/114042.623:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 11:40:54.286 [12796:15172:0903/114054.286:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 11:48:10.658 [12796:15172:0903/114810.658:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 12:12:36.779 [12796:15172:0903/121236.779:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 12:12:38.989 [12796:15172:0903/121238.988:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 03, 2020 16:13:16.237 [12796:15172:0903/161316.237:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 16:13:18.444 [12796:15172:0903/161318.444:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 03, 2020 16:15:26.279 [12796:15172:0903/161526.279:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 16:16:14.171 [12796:15172:0903/161614.171:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 03, 2020 17:24:50.12 [12796:15172:0903/172450.012:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 03, 2020 17:24:52.514 [12796:15172:0903/172452.089:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Sep 05, 2020 09:25:58.371 NEW SESSION
+Sep 05, 2020 09:25:58.372 [15484:6536:0905/092558.367:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 05, 2020 10:57:21.403 [15484:3336:0905/105721.403:ERROR:backend_impl.cc(1041)] Critical error found -8
+Sep 05, 2020 10:57:21.418 [15484:3336:0905/105721.404:ERROR:entry_impl.cc(998)] Failed to save user data
+Sep 05, 2020 10:57:44.712 [15484:5804:0905/105744.712:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 10:57:48.366 [15484:5804:0905/105748.366:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 10:57:49.590 [15484:5804:0905/105749.590:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 10:57:59.231 [15484:11600:0905/105759.231:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 10:57:59.236 [15484:11600:0905/105759.232:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 11:32:00.599 [15484:10520:0905/113200.598:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 05, 2020 14:08:19.538 [15484:10520:0905/140817.724:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 05, 2020 14:08:24.398 [15484:10520:0905/140824.398:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 05, 2020 14:08:36.127 [15484:10520:0905/140836.126:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 05, 2020 14:08:48.180 [15484:6296:0905/140848.179:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 05, 2020 14:09:38.957 [15484:10520:0905/140938.957:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 05, 2020 14:10:42.278 [15484:2076:0905/141042.278:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 05, 2020 14:11:24.45 [15484:10520:0905/141124.045:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 05, 2020 14:12:58.170 [15484:2076:0905/141258.169:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 05, 2020 14:17:47.844 [15484:2460:0905/141747.844:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 14:18:00.83 [15484:2460:0905/141800.083:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 14:18:02.256 [15484:15860:0905/141802.255:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 14:18:02.931 [15484:15860:0905/141802.931:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 14:18:04.33 [15484:15860:0905/141804.033:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 14:30:40.408 [15484:10520:0905/143040.407:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 05, 2020 14:31:24.649 [15484:10520:0905/143124.649:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 05, 2020 14:35:41.450 [15484:10520:0905/143539.800:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 05, 2020 15:23:12.393 [15484:10520:0905/152312.393:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 05, 2020 15:39:41.387 [15484:10520:0905/153941.387:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 05, 2020 15:39:53.14 [15484:10520:0905/153953.014:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 05, 2020 16:00:25.607 [15484:10520:0905/160025.607:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Sep 05, 2020 16:00:29.582 [15484:10520:0905/160029.582:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 05, 2020 16:00:51.342 [15484:10520:0905/160051.342:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 05, 2020 17:22:23.286 [15484:13604:0905/172223.284:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 17:22:23.847 [15484:13604:0905/172223.846:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 17:22:24.90 [15484:13604:0905/172224.089:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 17:22:24.101 [15484:13604:0905/172224.101:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+Sep 05, 2020 17:22:37.61 [15484:9484:0905/172237.061:ERROR:database.cc(1692)] AppCache sqlite error 2067, errno 0: UNIQUE constraint failed: Groups.manifest_url, sql: INSERT INTO Groups  (group_id, origin, manifest_url, creation_time, last_access_time,   last_full_update_check_time, first_evictable_error_time,   token_expires)  VALUES(?, ?, ?, ?, ?, ?, ?, ?)
+
+Sep 09, 2020 01:24:17.608 NEW SESSION
+Sep 09, 2020 01:24:17.608 [3340:14784:0909/012417.579:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.

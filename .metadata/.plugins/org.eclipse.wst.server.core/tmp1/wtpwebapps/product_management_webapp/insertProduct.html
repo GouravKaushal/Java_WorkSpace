@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert Product</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+</head>
+
+<body>
+	<form action="products" name="form" method="post">
+
+		<div class="form-group   p-3 mb-2 bg-info text-white">
+
+			<h1 class="display-3 text-warning text-center mb-4">Insert Page</h1>
+			</br>
+			<div class="container" style="width: 35%;">
+
+
+
+				<label for="productName" class="mt-2">Product Name</label>
+				<input type="text" class="form-control" id="productName" placeholder="Enter Product Name" name="textProductName"
+					required>
+
+
+
+				<label for="productCost" class="mt-2">Product Cost</label>
+				<input type="number" class="form-control" id="productCost" placeholder="Enter Product Cost" name="textProductCost"
+					required>
+
+				<div class="text-center mt-4">
+				<input type="hidden" name="action" value="insert"/>
+					<button  id="btn-insert" type="submit" class=" btn btn-success mr-3" style="width: 10rem;">Insert</button>
+						<a class="btn btn-primary" href="index.html" role="button">Home</a>
+				</div>
+				
+			</div>
+		</div>
+	</form>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

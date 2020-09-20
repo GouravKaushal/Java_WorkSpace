@@ -1,0 +1,33 @@
+package com.zensar.product_management.service;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class ProductInsertion extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    private String productName=null;
+    private int productCost,productId;
+    private ProductService productService;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		productName=request.getParameter("textProductName");
+		productCost=Integer.parseInt(request.getParameter("textProductCost"));
+	
+		productId=productService.acceptProduct(productName, productCost);
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+1598865466720	Copy package
+1598865478716	Delete element
+1598865781644	Rename package 'repository'
+1598865829876	Rename package 'repository.impl'
+1598865852608	Rename package 'service'
+1598865868163	Rename package 'service.impl'
+1598865883978	Rename package 'serviceprovider'
+1598865903074	Rename package 'ui'
+1598866018136	Move package
+1598866872912	Rename package 'com.zensar.product_management'
+1598885095238	Move 'displayAllProducts.jsp' to 'webapp'
+1598888091331	Delete element
